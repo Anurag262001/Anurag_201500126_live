@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  .li button{
+    width: 3px ;
+    height: 10px;
+  } 
+.navigation{
+    width: 100%;
+    font-size: 18px;
+position: sticky;
+top: 0px;
+    background-color: rgb(252, 252, 252);
+    overflow: auto;
+    height: 71px;
+}
+.navigation li{
+    position: sticky;
+    top: 1px;
+    color: rgb(0, 0, 0);
+    float: right;
+    list-style: none;
+    padding: 8px 21px;
+  
+}
+.navigation li:hover{
+    color: rgb(255, 7, 7);
+    background-color:#c0c0c0;
+    cursor: pointer;
+}
+.ourservices{
+display: flex;
+justify-content: center;
+font-size: 50px;
+}
+.belowservice{
+    display: flex;
+justify-content: center;
+font-size: 19px;
+}
+.container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.circle1{
+    background-image: url(https://www.xindemarinenews.com/uploads/allimg/190627/61-1Z62G6002a47.jpg);
+    width: 25%;
+    height: 378px;
+   margin-right: 30px;
+}
+.circle2{
+    background-image: url(https://industrytoday.com/wp-content/uploads/2020/10/air-freight-cargo.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 25%;
+    height: 378px;
+    margin-right: 30px;
+}
+.circle3{
+    background-image: url(https://virtusprologistics.com/wp-content/uploads/2018/08/Road-Freight2-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 378px;
+}
+.cont1{
+    display: flex;
+}
+.cargo{
+    margin-left: 148px;
+}
+.air{
+    margin-right: 115px;
+    margin-left: opx;
+}
+.road{
+    margin-left:4px ;
+}
+.readmore{
+    display: flex;
+    color: red;
+}
+.r{
+    margin-left: 148px;
+    }
+    .e{
+        margin-left: 330px;
+    }
+    .a{
+        margin-left: 345px;
+    }
+    .footer{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 74px;
+    }
+    .name{
+        margin-left: -135px;
+    }
+    .rollnum{
+        margin-left: 141px;
+    }
+    .clg{
+        margin-left: 93px;
+    }
+    .date{
+        margin-left: 119px;
+    }
+    img{
+        height: 173px;
+        width: 225px;
+        margin-top: -71px ;
+    }
+    .r:hover{
+cursor: pointer;
+    }
+    .e{
+        cursor: pointer;
+    }
+    .a{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <nav class="navigation">
+        <ul>
+            <img class="img" src="https://img.freepik.com/premium-vector/fast-shipping-logo_10250-3101.jpg" alt="">
+            <li><i class="fa fa-search"></i></li>
+        <li>SERVICES</li>
+        <li>SHIPPING</li>
+        <li>TRACKING</li>
+        <li>BLOG</li>
+        <li>PAGES</li>
+        <li>CONTACT US</li>
+        <li>HOME</li>
+
+     </ul>
+    </nav>
+    <hr>
+    <p class="ourservices">OUR SERVICE</p>
+    <p class="belowservice"> Lorem lpsum is simpl text of the printing and typesetting industry</p>
+    <div class="container">
+    <p class="circle1"> </p>
+    <p class="circle2"> </p>
+    <p class="circle3"> </p>
+</div>
+<div class="cont1">
+    <p class="cargo"><b>OCEAN FREIGHT SHIPPING</b><BR>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, consequatur nam ea rerum dolorem aperiam atque aliquam maiores enim dolorum, temporibus quis sunt expedita, neque tempora obcaecati? Distinctio, magni fugit.</p>
+    <p class="air"><b> AIR FREIGHT SHIPPING</b><BR>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,co dolorem aperiam atque aliquam maiores enim dolorum, temporibus quis sunt expedita, neque tempora obcaecati? Distinctio, magni fugit.</p>
+<p class="road"><b>CAR FREIGHT SHIPPING</b><BR>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, consequatur nam ea rerum dolorem aperiam atque aliquam maiores enim dolorum, temporibus quis scaecati? Distinctio, magni fugit.</p>
+</div>
+<div class="readmore">
+    <p class="r">READ MORE &nbsp;></p>
+    <P class="e">READ MORE &nbsp;></P>
+    <P class="a">READ MORE &nbsp;></P>
+</div>
+<footer class="footer">
+    <p class="name">
+      ANURAG SHARMA  
+    </p>
+    <p class="rollnum">
+       201500126 
+      </p>
+      <p class="clg">
+        GLA University Mathura  
+      </p>
+      <p class="date">
+        11-07-2022
+      </p>
+</footer>
+</body>
